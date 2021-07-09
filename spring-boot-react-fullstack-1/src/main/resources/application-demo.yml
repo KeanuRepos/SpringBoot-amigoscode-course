@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: @spring.profiles.active@
+
+server:
+  port: 5000
+
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://fullstackspringbootdb.clpyabdkew3n.us-east-2.rds.amazonaws.com
+    username: keanumjohnston
+    password: 99KJATPROp
+    pool-size: 30
